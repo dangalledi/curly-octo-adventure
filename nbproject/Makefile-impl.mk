@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=generador
+PROJECTNAME=curly-octo-adventure
 
 # Active Configuration
 DEFAULTCONF=Debug

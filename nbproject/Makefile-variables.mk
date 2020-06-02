@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=generador
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/generador
+CND_ARTIFACT_NAME_Debug=curly-octo-adventure
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/curly-octo-adventure
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=generador.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/generador.tar
+CND_PACKAGE_NAME_Debug=curly-octo-adventure.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/curly-octo-adventure.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=generador
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/generador
+CND_ARTIFACT_NAME_Release=curly-octo-adventure
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/curly-octo-adventure
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=generador.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/generador.tar
+CND_PACKAGE_NAME_Release=curly-octo-adventure.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/curly-octo-adventure.tar
 #
 # include compiler specific variables
 #
