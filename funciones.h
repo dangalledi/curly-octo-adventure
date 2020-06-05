@@ -2,6 +2,7 @@
 #define FUNCIONES_H
 
 #include <iostream>
+#include <stdio.h>
 #include <vector>
 #include <random>
 
@@ -36,5 +37,11 @@ void imprimirVector(std::vector<int> arreglo);
  * Funcion que muestra los participantes del grupo
  */
 void participantes();
+
+std::vector<int> particion(std::vector<int> arreglo, int izquierda, int derecha);
+
+void intercambiar(int *a, int *b);
+
+void quicksort(std::vector<int> arreglo, int izquierda, int derecha);
 
 #endif /* FUNCIONES_H */
