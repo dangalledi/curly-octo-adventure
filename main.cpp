@@ -16,14 +16,14 @@ using namespace std;
 int main(int argc, char** argv) {
       
     
-    for(int largo = 1; largo < INT_MAX ; largo *= 100){
+    for(int largo = 1; largo < INT_MAX/2 ; largo *= 100){
         auto inicio = chrono::steady_clock::now();
         std::vector<int> arreglo = generarVector(largo);
         
         int longitud =  arreglo.size();
         
         /*Invocar a quicksort indicando todo el arreglo, desde 0 hasta el índice final */
-        quicksort(arreglo, 0, longitud - 1);
+        quickSort(arreglo, 0, largo);
         
         auto termino = chrono::steady_clock::now();
         auto duracion = chrono::duration_cast<chrono::nanoseconds>(termino - inicio).count();

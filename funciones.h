@@ -38,10 +38,7 @@ void imprimirVector(std::vector<int> arreglo);
  */
 void participantes();
 
-std::vector<int> particion(std::vector<int> arreglo, int izquierda, int derecha);
-
-void intercambiar(int *a, int *b);
-
-void quicksort(std::vector<int> arreglo, int izquierda, int derecha);
+void quickSort(std::vector<int>& a, int p,int q);
+int partition(std::vector<int>& a, int p,int q);
 
 #endif /* FUNCIONES_H */
